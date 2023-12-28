@@ -1,0 +1,23 @@
+{
+  "name": "nfcpi",
+  "version": "1.0.0",
+  "description": "NFC raspberry pi for access controle to as building ",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bean0-0/nfcpi.git"
+  },
+  "keywords": [
+    "pi",
+    "nfc"
+  ],
+  "author": "Benjamin Nasse",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Bean0-0/nfcpi/issues"
+  },
+  "homepage": "https://github.com/Bean0-0/nfcpi#readme"
+}
