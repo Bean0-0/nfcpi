@@ -1,7 +1,3 @@
-"""
-This example shows connecting to the PN532 and reading the GPIOs.
-"""
-
 import RPi.GPIO as GPIO
 
 from pn532 import *
