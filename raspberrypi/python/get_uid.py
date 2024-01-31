@@ -1,5 +1,5 @@
 import RPi.GPIO as GPIO
-
+import time
 from pn532 import *
 
 
