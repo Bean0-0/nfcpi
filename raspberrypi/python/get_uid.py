@@ -1,10 +1,3 @@
-"""
-This example shows connecting to the PN532 with I2C (requires clock
-stretching support), SPI, or UART. SPI is best, it uses the most pins but
-is the most reliable and universally supported.
-After initialization, try waving various 13.56MHz RFID cards over it!
-"""
-
 import RPi.GPIO as GPIO
 
 from pn532 import *
@@ -26,7 +19,7 @@ if __name__ == '__main__':
         while True:
             # Check if a card is available to read
             uid = pn532.read_passive_target(timeout=0.5)
-            print('.', end="")
+            # print('.', end="")
             # Try again if no card is available.
             if uid is None:
                 continue
